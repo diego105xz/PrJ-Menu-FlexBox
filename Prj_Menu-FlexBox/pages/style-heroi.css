@@ -1,0 +1,85 @@
+body {
+    flex-grow: 1;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    list-style: none;
+    transition: all .7s ease-in-out;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+}
+
+.tema_verde{
+    color: green;
+    text-shadow: 2px 2px 9px rgba(0, 128, 0, 0.938);
+}
+.tema_azul{
+    color: rgb(25, 100, 240);
+    text-shadow: 2px 2px 9px rgb(25, 100, 240);
+}
+.tema_vermelho{
+    color: rgba(255, 0, 0, 0.767);
+    text-shadow: 2px 2px 9px rgba(255, 0, 0, 0.767);;
+}
+
+header{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1:hover{
+    font-size: 120px;
+    transition: all .7s ease-in-out;
+
+}
+
+h2{      
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.texto{
+    margin-top: 100px;
+    width: 80%;
+}
+
+.artigo{
+    display: flex;
+    padding: 50px;
+    justify-content:center;
+}
+
+.img-heroi{    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.voltar{
+    width: 60px;    
+}
+
+@media screen and (max-width: 768px){
+    
+    .artigo{
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}
