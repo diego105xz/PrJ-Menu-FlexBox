@@ -1,14 +1,11 @@
 body {
-    flex-grow: 1;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    list-style: none;
-    transition: all .7s ease-in-out;
     background-image: url(../img/fundo.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-
 .tema_verde{
     color: green;
     text-shadow: 2px 2px 9px rgba(0, 128, 0, 0.938);
@@ -76,7 +73,7 @@ p{
 }
 
 @media screen and (max-width: 768px){
-    
+
     .artigo{
         display: flex;
         padding: 0;
